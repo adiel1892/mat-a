@@ -11,14 +11,10 @@
 
 #include "doctest.h"
 #include "mat.hpp"
-#include <iostream>
-#include <stdexcept>
-
 using namespace ariel;
 
 #include <string>
 #include <algorithm>
-
 using namespace std;
 
 /**
