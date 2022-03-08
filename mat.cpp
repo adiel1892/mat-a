@@ -6,7 +6,7 @@ using namespace std;
 
 // First step - build a expected matrix.
 // Second step - add the expected matrix to a string and return the string.
-string ariel::mat(int cols,int rows,char symbol1,char symbol2){
+string ariel::mat(int cols , int rows , char symbol1 , char symbol2){
     if(rows % 2 == 0 || cols % 2 == 0 || rows < 1 || cols < 1){
         __throw_invalid_argument("rows and columns must be odd and positive.");
     }
